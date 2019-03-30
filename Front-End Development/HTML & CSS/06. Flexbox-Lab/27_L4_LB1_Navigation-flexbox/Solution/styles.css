@@ -1,0 +1,43 @@
+body{
+    background-color: #EEE;
+    padding: 5rem;
+}
+
+header{
+    display:flex;
+    border-bottom: 2px solid rgb(0, 0, 0) ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 2rem 0;
+
+}
+header nav li{
+    flex:1 0 auto;
+    display: block;
+    text-decoration: none;
+    list-style: none outside;
+   
+}
+header nav li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    background: #FFF;
+    color:#060;
+    text-decoration: none;
+}
+header nav li a:focus,
+header nav li a:hover{
+    background: #000;
+}
+
+.some-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0;
+}

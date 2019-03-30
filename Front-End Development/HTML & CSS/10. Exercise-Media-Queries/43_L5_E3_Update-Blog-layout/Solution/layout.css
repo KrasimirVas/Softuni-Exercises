@@ -1,0 +1,29 @@
+.page {
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.wrapper{
+	max-width:100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.site-header{
+	width:100%;
+}
+
+.page main {
+	width: 70%;
+}
+
+main article {
+	padding-right: 2rem;
+}
+
+aside section {
+	padding-left: 4rem;
+}

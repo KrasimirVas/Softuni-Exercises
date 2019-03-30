@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    font-family: "Poppins",sans-serif;
+    background: linear-gradient(to right,rgb(160, 105, 93), rgb(250, 243, 230))
+}
+.container{
+    width:60%;
+    margin:auto;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+}
+.container .left{
+   
+}
+.container img{
+    width:60%;
+    padding-left:50px;
+    
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    margin-right:50px;
+}
+.form input {
+    width:65%;
+    padding:10px 35px;
+    padding-right:0;
+    margin-bottom:15px;
+    border-radius:20px;
+    border:none;
+    outline:none;
+    background: rgb(202, 196, 196);
+}
+.answers{
+    padding-left:20px;
+    color:grey;
+}
+.answers .far{
+    
+}
+.submit input{
+    margin-top:30px;
+    width:75%;
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    outline:none;
+    background: brown;
+    color:white;
+    margin-bottom:10px;
+
+}
+.forget, .create{
+    font-size:10px;
+    
+} 
+.forget{
+    padding-left:30px;
+}
+.create{
+    margin-top:30px;
+    padding-left:50px;
+    padding-bottom:20px;
+    text-decoration: underline;
+}
+.forget span{
+    text-decoration: underline;
+}
+.right h2{
+    padding-left:60px;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+.form .fas{
+    position:relative;
+    right:286px;
+}
+.submit input:hover{
+    background: rgb(87, 29, 29);
+    cursor: pointer;
+}

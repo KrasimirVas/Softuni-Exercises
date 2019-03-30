@@ -1,0 +1,60 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+body{
+   
+    margin:0;
+    padding:0;
+
+}
+.viewport{
+display: block;
+height: 100vh;
+
+}
+img{
+    width: 30vh;
+    height: auto;
+    
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+    
+}
+.viewport:nth-child(1) {
+ background: linear-gradient(to right, #195D9D,#3099A0,#42CBA2  );
+ display:flex;
+
+ justify-content: center;
+ align-items: center;
+}
+.viewport:nth-child(2) {
+    display:flex;
+
+ justify-content: center;
+ align-items: center;
+
+    background: linear-gradient(to right,#A93477,#BE5D43,#D28213 );  
+}
+i{
+    color:white;
+    
+}
+body > div:nth-child(1) > section > div > i{
+    position: relative;
+    right: -201px;
+    top: -21px;
+}
+body > div:nth-child(2) > section > div > i{
+    position: relative;
+    right: -202px;
+    top: -22px;
+}
+.card{
+   
+    
+}
+

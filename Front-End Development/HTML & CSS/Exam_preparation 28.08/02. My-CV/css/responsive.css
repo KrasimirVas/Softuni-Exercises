@@ -1,0 +1,26 @@
+/*TODO:*/
+@media screen and (max-width: 768px){
+    #main{
+    margin:2%;
+    display: flex;
+    flex-direction: column;
+    }
+    #main aside{
+        width: 100%;
+        padding: 14px 18px;
+       
+        
+    }
+    #main > aside > img{
+        
+        width:100%;
+        
+    }
+    .progress-bar{
+        color:#009688;
+    }
+    main{
+        width:100%;
+        
+    }
+}

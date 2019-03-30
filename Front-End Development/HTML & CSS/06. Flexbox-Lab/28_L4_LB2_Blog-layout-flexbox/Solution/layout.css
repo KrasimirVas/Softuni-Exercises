@@ -1,0 +1,26 @@
+.page {
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.page > header {
+	flex: 1 0 100%;
+}
+
+.page main {
+	/*width: 70%;*/
+	flex: 1 0 70%;
+}
+.page aside{
+	/*width: 30%;*/
+	flex: 1 0 30%;
+}
+
+main article {
+	padding-right: 2rem;
+}
+
+aside section {
+	padding-left: 4rem;
+}

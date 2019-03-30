@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html{
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+}
+header ul li{
+    list-style: none;
+
+}
+header ul li a {
+    text-decoration: none;
+    padding-right:15px;
+    color:rgb(240, 95, 64)
+}
+.first{
+    background-image:url("../img/header.png");
+    background-size: cover;
+    background-position: center;
+    padding-top:6%;
+    padding-bottom:15%;
+    color:white;
+    text-align: center;
+    margin-bottom:0px;
+}
+.first h1{
+   margin-top:0;
+   padding-top:0;
+}
+.line-orange{
+    height: 2px;
+    background: orange;
+    width:50px;
+    margin:0 47%;
+}
+.first .text {
+    padding: 0 289px;
+text-align: center;
+
+}
+.second{
+    background: rgb(240, 95, 64);
+    text-align: center;
+    color:white;
+
+}
+.second h2{
+    margin-top:0;
+}
+.line-white{
+    height: 2px;
+    background: white;
+    width:50px;
+    margin:0 47%;
+}
+.second .text{
+    text-align:center;
+    margin:1% 28%;
+    font-size:14px;
+}
+.second input{
+    outline:none;
+    border:none;
+    border-radius: 20px;
+    padding:10px;
+    margin-bottom:2%;
+    font-weight: bold;
+    color:black;
+    background: white;
+}
+.kind-of-monkey{
+    text-align: center;
+}
+.main-info{
+    display: flex;
+    margin:20px 13%;
+    text-align: center;
+    justify-content: space-between;
+}
+.main-info i{
+    color:orange;
+    font-size:30px;
+}
+.main-info article{
+    width:20%;
+}
+.main-info .info{
+    font-size:14px;
+    color:gray;
+    
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-top:2px solid orange;
+    border-bottom:2px solid orange;
+    
+}
+.gallery img{
+    width:90%;
+    border-left:2px solid orange;
+    border-right:2px solid orange;
+    margin-bottom:-6px;
+}
+.final{
+    text-align: center;
+    padding:20px 0;
+    border-bottom:1px solid black;
+}
+.final span{
+    color:orange;
+}

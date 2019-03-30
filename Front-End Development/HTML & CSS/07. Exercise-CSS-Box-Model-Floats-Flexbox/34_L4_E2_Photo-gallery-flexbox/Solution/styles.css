@@ -1,0 +1,10 @@
+body{
+    background: grey;
+}
+
+img{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
